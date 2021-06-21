@@ -1,4 +1,4 @@
-import IMappable from "../types/IMappable";
+import Mappable from "../types/Mappable";
 
 export class CustomMap {
   private googleMap: google.maps.Map;
@@ -16,7 +16,7 @@ export class CustomMap {
     );
   }
 
-  public addMarker(mappable: IMappable): void {
+  public addMarker(mappable: Mappable): void {
     new google.maps.Marker({
       map: this.googleMap,
       position: {
