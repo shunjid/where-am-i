@@ -2587,4 +2587,4 @@ var e=require("./lib"),l=new e({locales:require("./lib/locales")});module.export
 },{"faker":"MM7B","../models/Company":"DNYF"}],"YSF2":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0});var e=require("./generators/UserGenerator"),r=require("./generators/CompanyGeneratory"),o=new e.UserGenerator,n=new r.CompanyGenerator;console.log(o.generateUser()),console.log(n.generateCompany()),console.log(google);
 },{"./generators/UserGenerator":"mLJg","./generators/CompanyGeneratory":"CSoD"}]},{},["YSF2"], null)
-//# sourceMappingURL=/app.011ef701.js.map
+//# sourceMappingURL=/where-am-i/app.011ef701.js.map
