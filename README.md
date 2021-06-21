@@ -1,7 +1,6 @@
 # WhereAmI
 
-Install parcel globally.
+Important typescript conepts covered in this project:
 
-```shell
-npm install -g parcel-bundler
-```
+- Restrict the amount of API surface area exposed inside src/index.ts
+- h
