@@ -19,4 +19,13 @@ export class Company {
       lng: longitude,
     };
   }
+
+  public markerContent(): string {
+    return `
+      <div>
+        <h1>Company: ${this.name}</h1>
+        <h2>CatchPhrase: ${this.catchPhrase}</h2>
+      </div>
+    `;
+  }
 }

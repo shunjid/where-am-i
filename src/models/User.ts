@@ -12,4 +12,8 @@ export class User {
       lng: longitude,
     };
   }
+
+  public markerContent(): string {
+    return `Username: ${this.name}`;
+  }
 }
