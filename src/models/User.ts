@@ -1,4 +1,6 @@
-export class User {
+import Mappable from "../types/Mappable";
+
+export class User implements Mappable {
   name: string;
   location: {
     lat: number;

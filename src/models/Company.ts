@@ -1,4 +1,6 @@
-export class Company {
+import Mappable from "../types/Mappable";
+
+export class Company implements Mappable {
   name: string;
   catchPhrase: string;
   location: {
