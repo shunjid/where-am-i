@@ -25,9 +25,13 @@ export class CustomMap {
       },
     });
 
+    this.addMarkerContent(marker, mappable.markerContent());
+  }
+
+  private addMarkerContent(marker: google.maps.Marker, content: string): void {
     marker.addListener("click", () => {
       const infoWindow = new google.maps.InfoWindow({
-        content: mappable.markerContent(),
+        content,
       });
 
       infoWindow.open(this.googleMap, marker);
