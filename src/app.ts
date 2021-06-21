@@ -1,10 +1,8 @@
-import { UserGenerator } from "./generators/UserGenerator";
-import { CompanyGenerator } from "./generators/CompanyGeneratory";
+import { Factory } from "./factory";
+import { CustomMap } from "./models/CustomMap";
 
-const userGenerator = new UserGenerator();
-const companyGenerator = new CompanyGenerator();
+const factory = new Factory();
 
-console.log(userGenerator.generateUser());
-console.log(companyGenerator.generateCompany());
-
-console.log(google);
+const map = new CustomMap("map");
+map.addMarker(factory.generateUser());
+map.addMarker(factory.generateCompany());

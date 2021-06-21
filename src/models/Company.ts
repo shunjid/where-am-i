@@ -2,8 +2,8 @@ export class Company {
   name: string;
   catchPhrase: string;
   location: {
-    latitude: number;
-    longitude: number;
+    lat: number;
+    lng: number;
   };
 
   constructor(
@@ -15,8 +15,8 @@ export class Company {
     this.name = name;
     this.catchPhrase = catchPhrase;
     this.location = {
-      latitude: latitude,
-      longitude: longitude,
+      lat: latitude,
+      lng: longitude,
     };
   }
 }
